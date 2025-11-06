@@ -38,3 +38,6 @@
   dwinters99:
   - rscadd: wod belts
   - rscadd: TFN tasers
+2025-11-06:
+  dwinters99:
+  - map: viewport helpers for mapping
