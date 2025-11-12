@@ -525,6 +525,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
+/obj/structure/city_map,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
 "md" = (
@@ -578,6 +579,10 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
+"nu" = (
+/obj/effect/landmark/navigate_destination,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/clinic)
 "nw" = (
 /obj/structure/table,
 /obj/lombard,
@@ -890,6 +895,10 @@
 /obj/effect/turf_decal/bordur,
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/outside/pacificheights)
+"tE" = (
+/obj/effect/landmark/navigate_destination,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/anarch)
 "tF" = (
 /obj/darkpack_car/retro/rand{
 	locked = 0
@@ -1137,6 +1146,10 @@
 /obj/item/vtm_artifact/saulocept,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/sewer)
+"zK" = (
+/obj/effect/landmark/navigate_destination,
+/turf/open/misc/dirt,
+/area/vtm/outside/supply)
 "zT" = (
 /obj/structure/chair/greyscale,
 /turf/open/floor/plating/rough,
@@ -1664,6 +1677,10 @@
 /obj/machinery/light/directional/west,
 /turf/open/floor/city/toilet,
 /area/vtm/interior/shop)
+"JA" = (
+/obj/structure/city_map,
+/turf/open/misc/beach/vamp,
+/area/vtm/outside/pacificheights)
 "JB" = (
 /obj/machinery/light/directional/east,
 /turf/open/floor/wood/smooth/old,
@@ -3148,7 +3165,7 @@ PO
 PO
 nm
 JH
-NR
+JA
 NR
 NR
 NR
@@ -3213,7 +3230,7 @@ xU
 OD
 Of
 hu
-PO
+tE
 Xz
 JH
 mb
@@ -3546,7 +3563,7 @@ pN
 pN
 pN
 pN
-pN
+nu
 Id
 Id
 Id
@@ -5129,7 +5146,7 @@ ik
 VQ
 ik
 Fs
-Wa
+zK
 Wa
 Wa
 Lb
